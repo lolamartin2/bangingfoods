@@ -1,0 +1,22 @@
+
+
+### **Meal Planning Logic**  
+- Prompts the user for **days they will eat out** and **days they will be in the office**.  
+- Generates a **weekly meal plan** for lunches and dinners.  
+- **Office lunch logic**:  
+  - If **yesterday’s dinner** was **leftover-friendly**, today's **lunch will be leftovers**.  
+  - If today is an **office day**, leftovers count as an **office lunch**.  
+  - Otherwise, lunch is chosen randomly from available options.  
+- **Dinner logic**:  
+  - If **tomorrow is an office day**, tonight’s dinner is **50% more likely** to be **leftover-friendly**.  
+  - If **today is an office day**, tonight’s dinner will be **lazy** (quick to prepare).  
+  - Otherwise, dinner is chosen randomly.  
+- Ensures a **mix of regular, lazy, and leftover-friendly meals**.  
+- Prints the **final meal plan** and a **shopping list** with needed ingredients.  
+
+This approach balances **effort, variety, and convenience**, making meal prep easier while ensuring you have food for the office! 🚀
+
+To do:
+make the output look better
+ensure that office lunches are only picked from the office lunch list
+fill out more details
